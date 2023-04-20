@@ -1,10 +1,27 @@
 package interviewprogram.collection;
 
+import javax.lang.model.element.Name;
+import java.util.Objects;
+
 public class Student {
 
     private String name;
     private int age;
     private String Section;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Student)) return false;
+        Student student = (Student) o;
+        return Objects.equals(getName(), student.getName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getName());
+    }
+
 
     public Student(String name, int age, String section) {
         this.name = name;

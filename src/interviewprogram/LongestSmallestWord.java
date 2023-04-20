@@ -18,13 +18,14 @@ public class LongestSmallestWord {
             char ch = sen.charAt(i);
 
             if (ch!=' '){
-                word = word + ch;
-            }else{
-                if (word.length()>ig.length()){
+                word = word+ch;
+            }
+            else{
+                if (word.length()>ig.length())
                     ig = word;
 
                     word = "";
-                }
+
             }
         }
         System.out.println("Longest word "+ig);

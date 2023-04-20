@@ -31,5 +31,6 @@ public class StudentHashMap {
         for (Student var: NewList.get(1) ){
             System.out.println(var.getName()+var.getSection()+var.getAge());
         }
+
     }
 }

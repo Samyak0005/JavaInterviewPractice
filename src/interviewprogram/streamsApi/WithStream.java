@@ -28,7 +28,7 @@ public class WithStream {
          Marks.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println);
 
          //Max
-        Integer integer = Marks.stream().max((x,y)->x.compareTo(y)).get();
+       Integer integer = Marks.stream().max((x, y)->x.compareTo(y)).get();
         System.out.println(integer);
 
         //Min

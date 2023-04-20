@@ -21,18 +21,18 @@ public class StudentArraylistSorting {
 //            System.out.println(var.getName()+var.getSection()+var.getAge());
 //        }
 
-//        Collections.sort(studentData);
-//        System.out.println(studentData);
-
-        ArrayList<Student_Model> studentData1 = new ArrayList<>(studentData);
-
-        Collections.sort(studentData1,new SectionComparator());
-        System.out.println(studentData1);
-
-        ArrayList<Student_Model> studentData2 = new ArrayList<>(studentData);
-
-        Collections.sort(studentData2,new NameComparator());
-        System.out.println(studentData2);
+        Collections.sort(studentData);
+        System.out.println(studentData);
+//
+//        ArrayList<Student_Model> studentData1 = new ArrayList<>(studentData);
+//
+//        Collections.sort(studentData1,new SectionComparator());
+//        System.out.println(studentData1);
+//
+//        ArrayList<Student_Model> studentData2 = new ArrayList<>(studentData);
+//
+//        Collections.sort(studentData2,new NameComparator());
+//        System.out.println(studentData2);
 
     }
 }

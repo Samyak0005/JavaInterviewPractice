@@ -8,7 +8,7 @@ public class StudentHashSet {
 
         HashSet<Student> List = new HashSet<>();
         Student student = new Student("Samyak",21,"Computer Science");
-        Student student1 = new Student("Samyak",21,"Computer Science");
+        Student student1 = new Student("Samyak",22,"ME");
 
         List.add(student);
         List.add(student1);
